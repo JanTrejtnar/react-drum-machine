@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#drum-machine {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#display {
+  height: 60px;
+  background-color: lightblue;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+#pads {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.drum-pad {
+  padding:30px
+}
